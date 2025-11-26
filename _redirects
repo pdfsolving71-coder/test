@@ -1,0 +1,11 @@
+# Redirect rules for Netlify
+
+# Language-based redirects
+/bn/* /index.html?lang=bn 200
+/en/* /index.html?lang=en 200
+
+# SPA fallback
+/* /index.html 200
+
+# 404 fallback
+/404 /index.html 404
